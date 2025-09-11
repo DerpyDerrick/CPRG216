@@ -1,0 +1,10 @@
+get user input a, b, and c
+if a == 0, then x1 = x2 = -c/b
+    else if 4*a*c < b^2 then
+    x1 = -b +sqrt(b^2 - 4*a*c) / (2*a)
+    else
+        print "no possible solution in the real domain."
+        exit
+    int x1, x2
+
+end

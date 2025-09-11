@@ -1,0 +1,35 @@
+Get user inputs x, y, and z
+
+//my attempt
+if x < y
+    if x < z
+        print x
+    else if 
+        print z
+else
+    if y < z
+        print y
+    else if 
+        print z
+
+end
+
+//student attempt
+if x < y
+    x = smallest
+else if
+    y = smallest
+
+if z < smallest
+    z = smallest
+print smallest
+
+end
+//prof attemps
+
+read x, y, z
+if x < y
+    y = x
+if z < y
+y = z
+print y
