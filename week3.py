@@ -27,8 +27,20 @@ num_f = float(3)
 num2 = 3.4
 num2_i = int(num2)
 num2_as_text = str(num2)
-
+'''
 # Using input function.. Note input function always return a string (text)
 
 user_input = int(input("Please enter your year of birth\n"))
 print("Your age is", 2025 - user_input)
+
+'''
+
+# print function
+    # working with a serparator
+
+print("Hello", "world", sep=' ', end =' ')
+print("Hello", "world", sep=' ')
+print("Hello\tworld")
+print("Hello\nworld")
+print('What is the student\'s name?')
+print('Use this symbol \\ to make an escape character')
