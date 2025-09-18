@@ -68,3 +68,31 @@ x = "Hello" # x changed to str
 print(x, type(x))
 x = True # x changed to Bool
 print(x, type(x))
+
+# casting
+
+x = 3 #int
+y = 4 #int
+z = x/y #float, automatic casting
+
+print(z)
+
+# mannal casting (explicit casting)
+
+int(z)
+print(int(z))
+
+print(int("43"))
+
+print(str(43))
+
+x = 1
+print(x, type(x))
+
+y = float(x)
+print(y, type(y))
+
+v = 4.3
+print(v, type(v))
+u = int(v)
+print(u, type(u))  # demotion
