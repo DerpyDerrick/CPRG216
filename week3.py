@@ -22,11 +22,13 @@ num_as_num = int(num_as_text) # converting string (text) to num
 print(num_as_text) # will print as a text
 print(num_as_num) # will it print???
 print(str(num_as_num)) #equivalent
-
 num = 3
 num_f = float(3)
-
 num2 = 3.4
 num2_i = int(num2)
-
 num2_as_text = str(num2)
+
+# Using input function.. Note input function always return a string (text)
+
+user_input = int(input("Please enter your year of birth\n"))
+print("Your age is", 2025 - user_input)
