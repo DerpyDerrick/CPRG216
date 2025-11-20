@@ -1,0 +1,20 @@
+
+from util import write
+def modify_list(data):
+    for i in range(0,len(data)):
+        data[i]*=2
+
+
+print("Hello to the debugger testing...")
+
+
+x = 3 + 1
+y = x**3
+y = y*2
+
+nums = [1, 2, 3, 4]
+
+modify_list(nums)
+print(nums)
+
+write("MyFile",'This is a test')
