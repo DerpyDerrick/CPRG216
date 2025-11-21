@@ -11,7 +11,7 @@ print("Hello to the debugger testing...")
 x = 3 + 1
 y = x**3
 y = y*2
-
+condition = y = 128
 nums = [1, 2, 3, 4]
 
 modify_list(nums)
